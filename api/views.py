@@ -6,8 +6,8 @@ from rest_framework import exceptions, status, viewsets
 from rest_framework.decorators import action
 from rest_framework.filters import SearchFilter
 from rest_framework.generics import get_object_or_404
-from rest_framework.permissions import IsAuthenticated, \
-    IsAuthenticatedOrReadOnly
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
@@ -15,8 +15,11 @@ from rest_framework_simplejwt.tokens import AccessToken
 
 from .filters import TitlesFilter
 from .models import Categories, Genres, Review, Titles
-from .permissions import IsAdmin, IsAdminOrReadOnly, \
-    IsPostOrIsAuthorOrNotUserOrReadOnly
+from .permissions import (
+    IsAdmin,
+    IsAdminOrReadOnly,
+    IsPostOrIsAuthorOrNotUserOrReadOnly,
+)
 from .serializers import (
     AuthConfirmationSerializer,
     AuthStartSerializer,

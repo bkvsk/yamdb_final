@@ -14,7 +14,7 @@ services:
       - ./.env
 
   web:
-    image: yamdb:latest
+    image: bkvsk/yamdb:latest
     restart: always
     volumes:
       - static_value:/code/static/

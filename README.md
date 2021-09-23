@@ -1,5 +1,8 @@
 ![example workflow](https://github.com/bkvsk/yamdb_final/actions/workflows/main.yml/badge.svg)
 
+Развернутый проект можно посмотреть по ссылке:
+http://62.84.113.247/
+
 # API_YaMDB
 ### Описание
 База данных отзывов на художественные произведения - книги, фильмы и музыку.

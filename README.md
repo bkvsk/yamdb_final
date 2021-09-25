@@ -1,6 +1,6 @@
 ![example workflow](https://github.com/bkvsk/yamdb_final/actions/workflows/main.yml/badge.svg)
 
-Развернутый проект доступен тут:
+Развернутый проект доступен по ссылке:
 http://62.84.113.247/
 
 # API_YaMDB
